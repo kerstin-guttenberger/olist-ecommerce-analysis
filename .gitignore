@@ -2,6 +2,11 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.csv
+*.xlsx
+*.xls
+*.db
+data/
 
 # C extensions
 *.so
@@ -76,7 +81,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
