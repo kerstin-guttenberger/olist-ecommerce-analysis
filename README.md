@@ -14,6 +14,15 @@ import kagglehub
 
 path = kagglehub.dataset_download("olistbr/brazilian-ecommerce")
 ```
+The SQLite database is generated locally from the downloaded CSV files using the provided Jupyter Notebook.
+
+## Project Structure
+
+├── notebooks           # Jupyter notebooks with SQL analysis   
+├── dashboard/           # Power BI dashboard files 
+├── .gitignore
+└── README.md
+
 ## Project Workflow
 - Imported all CSV files into a SQLite3 database
 - Created SQL queries in Jupyter Notebook for exploratory analysis
@@ -23,7 +32,11 @@ path = kagglehub.dataset_download("olistbr/brazilian-ecommerce")
     - adjusted column data types
     - converted e.g. timestamps to the correct data type or ZIP codes to strings for better handling
     - transformed geospatial data into latitude/longitude values for map visualizations
-- Rebuilt and optimized table relationships in the Power BI model view
+- Designed and optimized relational data models in Power BI to
+    - redefine key table relationships
+    - improve query performance and data consistency
+    - enable accurate filtering and aggregations across tables
+    - support interactive dashboard visualizations
 
 ## Analysis Overview
 The explored business questions in the Jupyter Notebook:
@@ -33,6 +46,15 @@ The explored business questions in the Jupyter Notebook:
 4. What are the top 20 product categories by revenue of the sample?
 5. How many orders were placed per year and what percentage of them were delayed?
 6. How did the customers review their orders in 2017 and 2018?
+Key Visuals
+![Distribution of Customer Review Scores](images/olist_analysis_q6_1.png)
+![Distribution of Customer Review Scores per Year](images/olist_analysis_q6_2.png)
+
+## Dashboard Preview
+
+
+## Key Insights
+
 
 ## Tools Used
 - SQLite3
