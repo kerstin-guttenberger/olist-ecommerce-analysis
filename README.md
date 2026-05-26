@@ -13,8 +13,8 @@ Download with `kagglehub`:
 import kagglehub
 
 path = kagglehub.dataset_download("olistbr/brazilian-ecommerce")
-
-Project Workflow
+```
+## Project Workflow
 - Imported all CSV files into a SQLite3 database
 - Created SQL queries in Jupyter Notebook for exploratory analysis
 - Connected the .db file to Power BI using an ODBC driver
