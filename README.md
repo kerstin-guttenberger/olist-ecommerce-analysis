@@ -51,7 +51,7 @@ Key Visuals
 ![Distribution of Customer Review Scores per Year](images/olist_analysis_q6_2.png)
 
 ## Dashboard Preview
-
+![Olist Database: Order Analysis](images/olist_BI_dashboard_1.png)
 
 ## Key Insights
 
