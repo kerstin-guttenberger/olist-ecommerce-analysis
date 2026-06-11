@@ -54,7 +54,11 @@ Key Visuals
 ![Olist Database: Order Analysis](images/olist_BI_dashboard_1.png)
 
 ## Key Insights
-
+Power BI Dashboard - Order Analysis:
+1. The dataset mainly contains orders from 2017 and 2018. The number of orders increased by approximately 20% in 2018 compared to 2017.
+2. Brazil represents the largest customer base. South Carolina (U.S.) is the fifth-largest customer state by number of orders.
+3. The majority of customers purchase only one item per order.
+4. The leading product categories are Bed Bath Table, Health Beauty, and Sports Leisure. Expanding the seller base in these categories could further drive platform growth and increase overall sales.
 
 ## Tools Used
 - SQLite3
